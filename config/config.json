@@ -1,21 +1,21 @@
 {
   "development": {
     "username": "root",
-    "password": "$2y$10$MN3Ijd2Lzv7fTSX2J1Ia5ut.1h0dttOFxB/lym1/l.19PkaM4M30a",
+    "password": "<YOUR DATABASE PASSWORD>",
     "database": "database_development",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "$2y$10$MN3Ijd2Lzv7fTSX2J1Ia5ut.1h0dttOFxB/lym1/l.19PkaM4M30a",
+    "password": "<YOUR DATABASE PASSWORD>",
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "$2y$10$MN3Ijd2Lzv7fTSX2J1Ia5ut.1h0dttOFxB/lym1/l.19PkaM4M30a",
+    "password": "<YOUR DATABASE PASSWORD>",
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"
