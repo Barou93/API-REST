@@ -1,35 +1,38 @@
-Exemple-NodeJS-api
+Exemple-NodeJS-api<br>
 
-Un exemple d'API node js pour un backend Réseau social , creation d'utilisateur, messages et Likes.
+Un exemple d'API node js pour un backend Réseau social , creation d'utilisateur, messages et Likes.<br><br>
 
 PARTIE I : Télécharger et développer en local
 Méthode 1 : Depuis github
 
-1. Clonez le référentiel, installez les packages de nœuds et vérifiez les routes localement
+1. Clonez le référentiel, installez les packages de nœuds et vérifiez les routes localement<br><br>
 
-npm install
-npm start
+npm install<br>
+npm start<br>
 Créer une base de donnée MySql avec WorkBrench et Sequelize.
 
-Ensuite ajouter le mot de passe de votre base de donnée dans le fichier config.js et ajouter votre signature Token dans le fichier jwt.utlis.js. ensuite tester l'API à l'aide de POSTMAN ou POSTWOMAN
-Ouvrez votre navigateur local et vérifiez que fonctionne en accédant à :
-Routes POST
-POUR CREER DES USERS
-http://localhost:8080/api/users/register/
-http://localhost:8080/api/users/login/
-CREATE NEW MESSAGE
-http://localhost:8080/api/messages/new/
+Ensuite ajouter le mot de passe de votre base de donnée dans le fichier config.js et ajouter votre signature Token dans le fichier jwt.utlis.js. ensuite tester l'API à l'aide de POSTMAN ou POSTWOMAN<br>
+Ouvrez votre navigateur local et vérifiez que fonctionne en accédant à : <br>
 
-ADD LIKE AND DISLIKE
-http://localhost:8080/api/messages/:messageId/vote/like
-http://localhost:8080/api/messages/:messageId/vote/dislike
+Routes POST<br>
+POUR CREER DES USERS . <br><br>
 
-ROUTES GET
-GET MESSAGE
-http://localhost:8080/api/messages/
-GET USER PROFILE
-http://localhost:8080/api/users/me/
+http://localhost:8080/api/users/register/<br><br>
 
-ROUTE PUT
-UPDATE USER PROFILE
+http://localhost:8080/api/users/login/<br><br>
+CREATE NEW MESSAGE<br><br>
+http://localhost:8080/api/messages/new/<br><br>
+
+ADD LIKE AND DISLIKE<br><br>
+http://localhost:8080/api/messages/:messageId/vote/like<br><br>
+http://localhost:8080/api/messages/:messageId/vote/dislike<br><br>
+
+ROUTES GET<br><br>
+GET MESSAGE<br><br>
+http://localhost:8080/api/messages/<br><br>
+GET USER PROFILE<br>
+http://localhost:8080/api/users/me/<br><br>
+
+ROUTE PUT<br><br>
+UPDATE USER PROFILE<br>
 http://localhost:8080/api/users/me/
